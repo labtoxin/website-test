@@ -6,62 +6,27 @@
     <title>labtoxin</title>
     <link rel="icon" type="image/png" href="pururu.png"> 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
             background-image: url('background.png'); /* Replace with your image */
-            background-size: cover; /* Makes sure it fills the screen */
-            background-position: center;
+            background-size: 100% 100%; /* Stretches the image */
+            background-position: center; 
             background-repeat: no-repeat;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
             height: 100vh;
             width: 100vw;
-        }
-
-        .links {
-            display: flex;
-            flex-direction: column;
-            gap: 20px; /* Space between buttons */
-            align-items: center;
-        }
-
-        .links img {
-            width: 200px; /* Default size */
-            max-width: 90%; /* Ensures responsiveness */
-            height: auto; /* Keeps aspect ratio */
-            transition: transform 0.2s ease-in-out;
-        }
-
-        .links img:hover {
-            transform: scale(1.1); /* Slight zoom effect on hover */
-        }
-
-        /* Responsive: Make images smaller on small screens */
-        @media (max-width: 600px) {
-            .links img {
-                width: 150px;
-            }
+            margin: 0;
         }
     </style>
 </head>
 <body>
-    <div class="links">
-        <a href="https://soundcloud.com/labtoxin" target="_blank">
-            <img src="SOUNDCLOUD-22-03-2025.png" alt="SoundCloud">
-        </a>
-        <a href="https://www.instagram.com/labtoxin/" target="_blank">
-            <img src="INGSTAGRAM-22-03-2025.png" alt="Instagram">
-        </a>
-        <a href="https://open.spotify.com/artist/6wqKQ39BZLsswxBVrU4XBI" target="_blank">
-            <img src="SPOTIFY-0-o-22-03-2025.png" alt="Spotify">
-        </a>
-    </div>
+    <a href="https://soundcloud.com/labtoxin" target="_blank">
+      <img src="SOUNDCLOUD-22-03-2025.png" alt="Clickable Text">
+    </a>
+    <a href="https://www.instagram.com/labtoxin/" target="_blank">
+      <img src="INGSTAGRAM-22-03-2025.png" alt="Clickable Text">
+    </a>
+    <a href="https://open.spotify.com/artist/6wqKQ39BZLsswxBVrU4XBI" target="_blank">
+      <img src="SPOTIFY-0-o-22-03-2025.png" alt="Clickable Text">
+    </a>
+    
 </body>
 </html>
